@@ -1,8 +1,9 @@
-# =========================================================
-# NEWS
+# ==========================================================================
+# FIRST SCRIPT
 # ------------------------------
-# I created this python script to practice the feedparser module with python.
-# =========================================================
+# This is a basic script which gets a url and parses a news source from it.
+# I created this so I can see how feedparser works in a fundamental way. 
+# ==========================================================================
 
 
 
@@ -10,7 +11,7 @@
 # ------------------------------
 # MODULES
 # ------------------------------
-# I need the feedparser module for the script to work
+# Imports the feedparser module (which the script needs to work)
 import feedparser
 
 
@@ -38,7 +39,7 @@ entry = newsfeed.entries[0]
 # GETTING THE KEYS
 # ------------------------------
 # This code gives me the keys that exist:
-# print(entry.keys())
+print(entry.keys())
 
 # Output:
 # -------
